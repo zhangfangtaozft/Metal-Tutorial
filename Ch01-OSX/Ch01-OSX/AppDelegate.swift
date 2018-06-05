@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ch01_OSX
+//  Ch01-OSX
 //
 //  Created by frank.Zhang on 05/06/2018.
 //  Copyright © 2018 Frank.Zhang. All rights reserved.

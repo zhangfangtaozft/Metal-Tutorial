@@ -11,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="ch01_OSX" id="1Xt-HY-uBw">
+                            <menuItem title="Ch01-OSX" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="ch01_OSX" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Ch01-OSX" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About ch01_OSX" id="5kV-Vb-QxS">
+                                        <menuItem title="About Ch01-OSX" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -29,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide ch01_OSX" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Ch01-OSX" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -47,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit ch01_OSX" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Ch01-OSX" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -660,7 +660,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="ch01_OSX Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Ch01-OSX Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -674,7 +674,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ch01_OSX" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Ch01_OSX" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -704,36 +704,36 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="ch01_OSX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Ch01_OSX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="341"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9Z7-Wl-RWM">
-                                <rect key="frame" x="-2" y="121" width="484" height="100"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MAU-gq-OxF">
+                                <rect key="frame" x="-2" y="85" width="484" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="KA2-H3-D4A"/>
+                                    <constraint firstAttribute="height" constant="100" id="pZs-dW-aYm"/>
                                 </constraints>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="label" id="EeK-Xv-Kae">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="sAi-cG-5he">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="9Z7-Wl-RWM" secondAttribute="trailing" id="N4Z-SJ-O3a"/>
-                            <constraint firstItem="9Z7-Wl-RWM" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="lGA-9q-X2S"/>
-                            <constraint firstItem="9Z7-Wl-RWM" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="ooG-wT-i1r"/>
+                            <constraint firstItem="MAU-gq-OxF" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="4TR-0q-HRS"/>
+                            <constraint firstItem="MAU-gq-OxF" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="GPb-a7-ddQ"/>
+                            <constraint firstAttribute="trailing" secondItem="MAU-gq-OxF" secondAttribute="trailing" id="hh8-sJ-pUG"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="9Z7-Wl-RWM" id="dCg-aq-TZm"/>
+                        <outlet property="label" destination="MAU-gq-OxF" id="eiA-FF-EJa"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="816.5"/>
+            <point key="canvasLocation" x="75" y="655"/>
         </scene>
     </scenes>
 </document>
