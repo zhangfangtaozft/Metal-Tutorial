@@ -4,3 +4,4 @@ Metal入门资料
 下面是相关技术博客的地址：<br>
 * [Metal入门资料001-Metal framework介绍](https://www.jianshu.com/p/2517ad248935)<br>
 * [Metal入门资料002-MetalKit第一部分](https://www.jianshu.com/p/7fb43180d090)<br>
+* [Metal入门资料003-MetalKit第二部分](https://www.jianshu.com/p/83d1a2a27a15)<br>
