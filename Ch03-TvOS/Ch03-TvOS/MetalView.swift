@@ -7,6 +7,7 @@
 //
 
 import MetalKit
+
 class MetalView: MTKView {
     var commandQueue: MTLCommandQueue?
     var rps: MTLRenderPipelineState?
