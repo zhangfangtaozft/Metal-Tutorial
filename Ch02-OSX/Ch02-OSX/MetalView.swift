@@ -9,14 +9,14 @@
 import MetalKit
 
 class MetalView: MTKView {
+    
     required init(coder:NSCoder){
         super.init(coder:coder)
         device = MTLCreateSystemDefaultDevice()
     }
     
     override func draw(_ dirtyRect: NSRect) {
-        if let drawable = currentDrawable,
-            let rpd = currentRenderPassDescriptor{
+        if let drawable = currentDrawable,let rpd = currentRenderPassDescriptor{
             rpd.colorAttachments[0].texture = currentDrawable!.texture
             rpd.colorAttachments[0].clearColor = MTLClearColor(red: 0, green: 0.5, blue: 0.5, alpha: 1)
             rpd.colorAttachments[0].loadAction = .clear
