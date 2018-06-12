@@ -45,12 +45,12 @@ class MetalView: MTKView {
         do{
             try rps = device?.makeRenderPipelineState(descriptor: rpld)
         } catch let error {
-            self.printView("\(error)")
+           print("\(error)")
         }
     }
     
-    override func draw(_ dirtyRect: NSRect) {
-        super.draw(dirtyRect)
+    override func draw(_ rect: CGRect) {
+        super.draw(rect)
         if let rpd = currentRenderPassDescriptor, let drawable = currentDrawable {
             rpd.colorAttachments[0].clearColor = MTLClearColorMake(0.5, 0.5, 0.5, 1.0)
             let commandBuffer = device?.makeCommandQueue()?.makeCommandBuffer()
@@ -64,4 +64,5 @@ class MetalView: MTKView {
             commandBuffer?.commit()
         }
     }
+
 }
