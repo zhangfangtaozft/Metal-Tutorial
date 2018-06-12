@@ -11,9 +11,9 @@
 		1EA27D4E20CFC9FB00933F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA27D4C20CFC9FB00933F13 /* Main.storyboard */; };
 		1EA27D5020CFC9FD00933F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA27D4F20CFC9FD00933F13 /* Assets.xcassets */; };
 		1EA27D5320CFC9FD00933F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA27D5120CFC9FD00933F13 /* LaunchScreen.storyboard */; };
-		1EA27D5D20CFCA2B00933F13 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA27D5A20CFCA2A00933F13 /* MetalView.swift */; };
-		1EA27D5E20CFCA2B00933F13 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1EA27D5B20CFCA2A00933F13 /* Shaders.metal */; };
-		1EA27D5F20CFCA2B00933F13 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA27D5C20CFCA2B00933F13 /* MathUtils.swift */; };
+		1EA27D7E20CFCC6700933F13 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA27D7B20CFCC6700933F13 /* MetalView.swift */; };
+		1EA27D7F20CFCC6700933F13 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1EA27D7C20CFCC6700933F13 /* Shaders.metal */; };
+		1EA27D8020CFCC6700933F13 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA27D7D20CFCC6700933F13 /* MathUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		1EA27D4F20CFC9FD00933F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA27D5220CFC9FD00933F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EA27D5420CFC9FD00933F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EA27D5A20CFCA2A00933F13 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalView.swift; path = "../../Ch07-OSX/Ch07-OSX/MetalView.swift"; sourceTree = "<group>"; };
-		1EA27D5B20CFCA2A00933F13 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = Shaders.metal; path = "../../Ch07-OSX/Ch07-OSX/Shaders.metal"; sourceTree = "<group>"; };
-		1EA27D5C20CFCA2B00933F13 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MathUtils.swift; path = "../../Ch07-OSX/Ch07-OSX/MathUtils.swift"; sourceTree = "<group>"; };
+		1EA27D7B20CFCC6700933F13 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		1EA27D7C20CFCC6700933F13 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		1EA27D7D20CFCC6700933F13 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				1EA27D4820CFC9FB00933F13 /* AppDelegate.swift */,
-				1EA27D5C20CFCA2B00933F13 /* MathUtils.swift */,
-				1EA27D5A20CFCA2A00933F13 /* MetalView.swift */,
-				1EA27D5B20CFCA2A00933F13 /* Shaders.metal */,
+				1EA27D7D20CFCC6700933F13 /* MathUtils.swift */,
+				1EA27D7B20CFCC6700933F13 /* MetalView.swift */,
+				1EA27D7C20CFCC6700933F13 /* Shaders.metal */,
 				1EA27D4C20CFC9FB00933F13 /* Main.storyboard */,
 				1EA27D4F20CFC9FD00933F13 /* Assets.xcassets */,
 				1EA27D5120CFC9FD00933F13 /* LaunchScreen.storyboard */,
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA27D5E20CFCA2B00933F13 /* Shaders.metal in Sources */,
-				1EA27D5F20CFCA2B00933F13 /* MathUtils.swift in Sources */,
-				1EA27D5D20CFCA2B00933F13 /* MetalView.swift in Sources */,
+				1EA27D7F20CFCC6700933F13 /* Shaders.metal in Sources */,
+				1EA27D8020CFCC6700933F13 /* MathUtils.swift in Sources */,
+				1EA27D7E20CFCC6700933F13 /* MetalView.swift in Sources */,
 				1EA27D4920CFC9FB00933F13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
