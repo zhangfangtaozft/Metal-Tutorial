@@ -8,3 +8,4 @@ Metal入门资料
 * [Metal入门资料004-MetalKit第三部分](https://www.jianshu.com/p/a73d10817b86)<br>
 * [Metal入门资料005-MetalKit第四部分](https://www.jianshu.com/p/a0cf80dddefc)<br>
 * [Metal入门资料006-MetalKit第五部分](https://www.jianshu.com/p/3e068cd4e539)<br>
+* [Metal入门资料007-MetalKit第六部分](https://www.jianshu.com/p/4f0f275a421f)<br>
