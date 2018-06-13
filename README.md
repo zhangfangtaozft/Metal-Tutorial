@@ -10,3 +10,4 @@ Metal入门资料
 * [Metal入门资料006-MetalKit第五部分](https://www.jianshu.com/p/3e068cd4e539)<br>
 * [Metal入门资料007-MetalKit第六部分](https://www.jianshu.com/p/4f0f275a421f)<br>
 * [Metal入门资料008-MetalKit第七部分](https://www.jianshu.com/p/8aef4af237bf)<br>
+* [Metal入门资料009-MetalKit第八部分](https://www.jianshu.com/p/3476e3560a31)<br>
