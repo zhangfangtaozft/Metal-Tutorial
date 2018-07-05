@@ -11,3 +11,4 @@ Metal入门资料
 * [Metal入门资料007-MetalKit第六部分](https://www.jianshu.com/p/4f0f275a421f)<br>
 * [Metal入门资料008-MetalKit第七部分](https://www.jianshu.com/p/8aef4af237bf)<br>
 * [Metal入门资料009-MetalKit第八部分](https://www.jianshu.com/p/3476e3560a31)<br>
+* [Metal入门资料010-渲染3D物体](https://www.jianshu.com/p/390e2f1ec2c3)<br>
