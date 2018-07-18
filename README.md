@@ -12,3 +12,4 @@ Metal入门资料
 * [Metal入门资料008-临时对象处理](https://www.jianshu.com/p/8aef4af237bf)<br>
 * [Metal入门资料009-使用playground开发](https://www.jianshu.com/p/3476e3560a31)<br>
 * [Metal入门资料010-渲染3D物体](https://www.jianshu.com/p/390e2f1ec2c3)<br>
+* [Metal入门资料011-着色技术入门](https://www.jianshu.com/p/a857c71b47ab)<br>
