@@ -1,13 +1,14 @@
 import MetalKit
 
 public class MetalView: NSObject, MTKViewDelegate {
+    
     public var device: MTLDevice!
     var queue: MTLCommandQueue!
     var cps: MTLComputePipelineState!
     
-    override public init(){
+    override public init() {
         super.init()
-        
+        registerShaders()
     }
     
     func registerShaders() {
@@ -24,9 +25,9 @@ public class MetalView: NSObject, MTKViewDelegate {
         }
     }
     
-    public func mtkView(_ view: MTKView,  drawableSizeWillChange size: CGSize){}
+    public func mtkView(_ view: MTKView, drawableSizeWillChange size: CGSize) {}
     
-    public func draw(in view: MTKView){
+    public func draw(in view: MTKView) {
         if let drawable = view.currentDrawable,
             let commandBuffer = queue.makeCommandBuffer(),
             let commandEncoder = commandBuffer.makeComputeCommandEncoder() {
@@ -41,4 +42,3 @@ public class MetalView: NSObject, MTKViewDelegate {
         }
     }
 }
-
