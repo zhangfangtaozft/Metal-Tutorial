@@ -14,3 +14,4 @@ Metal入门资料
 * [Metal入门资料010-渲染3D物体](https://www.jianshu.com/p/390e2f1ec2c3)<br>
 * [Metal入门资料011-渲染技术(一)](https://www.jianshu.com/p/a857c71b47ab)<br>
 * [Metal入门资料012-渲染技术(二)](https://www.jianshu.com/p/2477018445ad)<br>
+* [Metal入门资料013-渲染技术(三)](https://www.jianshu.com/p/5fcc91ca7e81)<br>
