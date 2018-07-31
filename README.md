@@ -16,3 +16,4 @@ Metal入门资料
 * [Metal入门资料012-利用数学函数绘制图像](https://www.jianshu.com/p/f4a44286833a)<br>
 * [Metal入门资料013-动画渲染技术](https://www.jianshu.com/p/2477018445ad)<br>
 * [Metal入门资料014-渲染灯光效果和3D效果](https://www.jianshu.com/p/5fcc91ca7e81)<br>
+* [Metal入门资料015-Noise技术](https://www.jianshu.com/p/900dc5393d3e)<br>
