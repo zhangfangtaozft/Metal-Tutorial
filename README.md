@@ -12,5 +12,7 @@ Metal入门资料
 * [Metal入门资料008-临时对象处理](https://www.jianshu.com/p/8aef4af237bf)<br>
 * [Metal入门资料009-使用playground开发](https://www.jianshu.com/p/3476e3560a31)<br>
 * [Metal入门资料010-渲染3D物体](https://www.jianshu.com/p/390e2f1ec2c3)<br>
-* [Metal入门资料011-渲染技术(一)](https://www.jianshu.com/p/a857c71b47ab)<br>
-* [Metal入门资料012-渲染技术(二)](https://www.jianshu.com/p/2477018445ad)<br>
+* [Metal入门资料011-渲染“日食”效果](https://www.jianshu.com/p/a857c71b47ab)<br>
+* [Metal入门资料012-利用数学函数绘制图像](https://www.jianshu.com/p/f4a44286833a)<br>
+* [Metal入门资料013-动画渲染技术](https://www.jianshu.com/p/2477018445ad)<br>
+* [Metal入门资料014-渲染灯光效果和3D效果](https://www.jianshu.com/p/5fcc91ca7e81)<br>
