@@ -18,3 +18,4 @@ Metal入门资料
 * [Metal入门资料014-渲染灯光效果和3D效果](https://www.jianshu.com/p/5fcc91ca7e81)<br>
 * [Metal入门资料015-噪点技术](https://www.jianshu.com/p/900dc5393d3e)<br>
 * [Metal入门资料016-纹理和采样器](https://www.jianshu.com/p/dacff9afccca)<br>
+* [Metal入门资料017-Metal最佳实践指南](https://www.jianshu.com/p/2b50049aab76)<br>
