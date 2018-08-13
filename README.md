@@ -20,3 +20,4 @@ Metal入门资料
 * [Metal入门资料016-纹理和采样器](https://www.jianshu.com/p/dacff9afccca)<br>
 * [Metal入门资料017-Metal最佳实践指南](https://www.jianshu.com/p/2b50049aab76)<br>
 * [Metal入门资料018-绘制线框图性](https://www.jianshu.com/p/5c79291f5216)<br>
+* [Metal入门资料019-图形绘制中数学函数的运用](https://www.jianshu.com/p/3630ca3a55e0)<br>
